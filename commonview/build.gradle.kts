@@ -30,6 +30,32 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
+
+//    publishing{
+//        publications {
+//            create<MavenPublication>("release") {
+//                from(components["release"])
+//            }
+//        }
+//        repositories {
+//            mavenLocal()
+//        }
+//    }
+}
+publishing {
+    publications {
+        create<MavenPublication>("CommonView") {
+            from(components["java"]) // 根据你的项目需要选择组件，像 'java' 或 'kotlin'
+
+            groupId = "cn.lunodio"
+            artifactId = "android-common-view"
+            version = "1.0.0"
+        }
+
+    }
+    repositories {
+        mavenCentral()
+    }
 }
 
 dependencies {
