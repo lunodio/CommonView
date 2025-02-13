@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
-
+    id("maven-publish")
+//    id 'com.vanniktech.maven.publish'
 }
 
 android {
@@ -9,7 +10,10 @@ android {
 
     defaultConfig {
         minSdk = 23
-        targetSdk = 34
+//        targetSdk = 34
+        testOptions {
+            targetSdk = 34
+        }
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
