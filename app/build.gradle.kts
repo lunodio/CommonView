@@ -50,7 +50,7 @@ android {
 }
 
 dependencies {
-    implementation("com.github.lunodio:CommonView:1.0.12")
+    implementation("com.github.lunodio:CommonView:1.0.13")
 //    implementation(project(":commonview"))
 //    implementation(project(":commonview"))
 

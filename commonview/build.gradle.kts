@@ -45,7 +45,7 @@ android {
 publishing {
     publications {
         create<MavenPublication>("CommonView") {
-            from(components["java"]) // 根据你的项目需要选择组件，像 'java' 或 'kotlin'
+//            from(components["kotlin"]) // 根据你的项目需要选择组件，像 'java' 或 'kotlin'
 
             groupId = "cn.lunodio"
             artifactId = "android-common-view"
