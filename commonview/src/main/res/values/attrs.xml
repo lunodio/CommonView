@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="l_radius" format="dimension" />
+    <attr name="l_radius_start" format="dimension" />
+    <attr name="l_radius_end" format="dimension" />
+    <attr name="l_radius_top" format="dimension" />
+    <attr name="l_radius_bottom" format="dimension" />
+    <attr name="l_radius_top_start" format="dimension" />
+    <attr name="l_radius_top_end" format="dimension" />
+    <attr name="l_radius_bottom_start" format="dimension" />
+    <attr name="l_radius_bottom_end" format="dimension" />
+    <attr name="l_stroke_width" format="dimension" />
+    <attr name="l_stroke_color" format="reference|color" />
+    <attr name="l_new_layer" format="boolean" />
+
+    <declare-styleable name="LRecyclerView">
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+
+    <declare-styleable name="LStyleable">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+    <!-- 只是为了有提示 -->
+    <declare-styleable name="LLinearLayout">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+
+    <declare-styleable name="LRelativeLayout">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+
+    <declare-styleable name="LFrameLayout">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+
+    <declare-styleable name="LImageView">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+
+    <declare-styleable name="LTextView">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+    </declare-styleable>
+
+    <declare-styleable name="LEditText">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+    <declare-styleable name="LConstraintLayout">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+    </declare-styleable>
+    <declare-styleable name="LView">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+    </declare-styleable>
+    <declare-styleable name="LBlurView">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+    </declare-styleable>
+
+    <declare-styleable name="LButton">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+    </declare-styleable>
+
+    <declare-styleable name="LCircleImageView">
+        <attr name="l_radius" />
+        <attr name="l_radius_start" />
+        <attr name="l_radius_end" />
+        <attr name="l_radius_top" />
+        <attr name="l_radius_bottom" />
+        <attr name="l_radius_top_start" />
+        <attr name="l_radius_top_end" />
+        <attr name="l_radius_bottom_start" />
+        <attr name="l_radius_bottom_end" />
+        <attr name="l_stroke_width" />
+        <attr name="l_stroke_color" />
+        <attr name="l_new_layer" />
+    </declare-styleable>
+
+    <declare-styleable name="LDrawerLayout">
+        <attr name="widthPercent_leftDrawer" format="float|fraction">
+            <enum name="unspecified" value="0" />
+        </attr>
+        <attr name="widthPercent_rightDrawer" format="float|fraction">
+            <enum name="unspecified" value="0" />
+        </attr>
+        <attr name="widthPercent_startDrawer" format="float|fraction">
+            <enum name="unspecified" value="0" />
+        </attr>
+        <attr name="widthPercent_endDrawer" format="float|fraction">
+            <enum name="unspecified" value="0" />
+        </attr>
+
+        <attr name="enabledInTouch_leftDrawer" format="boolean" />
+        <attr name="enabledInTouch_rightDrawer" format="boolean" />
+        <attr name="enabledInTouch_startDrawer" format="boolean" />
+        <attr name="enabledInTouch_endDrawer" format="boolean" />
+
+        <attr name="contentSensitiveEdgeSize" format="dimension" />
+
+        <attr name="contentFadeColor" format="color" />
+
+        <attr name="duration" format="integer" />
+
+        <!--<attr name="closeOpenDrawerOnBackPressedEnabled" format="boolean" />-->
+    </declare-styleable>
+
+    <declare-styleable name="LDrawerLayout_Layout">
+        <attr name="android:layout_gravity" />
+    </declare-styleable>
+</resources>
