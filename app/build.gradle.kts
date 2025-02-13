@@ -50,7 +50,10 @@ android {
 }
 
 dependencies {
+//    implementation("com.github.lunodio:CommonView:1.0.1")
     implementation(project(":commonview"))
+//    implementation(project(":commonview"))
+
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
 //        implementation("androidx.appcompat:appcompat:1.7.0")

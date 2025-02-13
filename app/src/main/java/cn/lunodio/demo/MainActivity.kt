@@ -43,6 +43,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     AndroidView(
         modifier = modifier,
         factory = { context ->
+
             val tv = LTextView(context)
             tv.text = "测试"
             tv.setRadius(15f)
