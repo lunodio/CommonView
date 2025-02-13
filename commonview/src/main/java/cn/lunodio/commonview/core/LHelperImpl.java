@@ -16,8 +16,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewGroup;
 
-import cn.lunodio.commonview.util.DensityUtil;
 import cn.lunodio.commonview.R;
+import cn.lunodio.commonview.util.DensityUtil;
 
 /**
  * @author test123 on 2019/12/10

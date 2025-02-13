@@ -10,10 +10,10 @@ import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import cn.lunodio.commonview.R;
 import cn.lunodio.commonview.core.LHelper;
 import cn.lunodio.commonview.core.LHelperImpl;
 import cn.lunodio.commonview.core.LMethodInterface;
-import cn.lunodio.commonview.R;
 
 
 public class LRecyclerView extends RecyclerView  implements LMethodInterface {

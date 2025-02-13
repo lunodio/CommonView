@@ -1,4 +1,4 @@
-package cn.lunodio.demo
+package cn.lunodio.commonview
 
 import org.junit.Test
 

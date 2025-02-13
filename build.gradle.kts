@@ -2,4 +2,14 @@
 plugins {
     alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
+    alias(libs.plugins.android.library) apply false
+//    id("com.vanniktech.maven.publish") apply false
+//    id ("maven-publish") apply  false
+//    id("com.github.dcendents.android-maven") apply  false
+
+}
+
+afterEvaluate {
+    println("Available components in module ${project.name}: ${components.names}")
+
 }

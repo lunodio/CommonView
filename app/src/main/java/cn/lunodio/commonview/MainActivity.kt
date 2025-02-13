@@ -1,24 +1,19 @@
-package cn.lunodio.demo
+package cn.lunodio.commonview
 
 import android.os.Bundle
-import android.view.LayoutInflater
-import android.widget.FrameLayout
-import android.widget.TextView
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.viewinterop.AndroidView
-import cn.lunodio.commonview.LTextView
-import cn.lunodio.demo.ui.theme.ViewTheme
+import cn.lunodio.commonview.ui.theme.ViewTheme
 
 //用数字标识关系举例
 class MainActivity : ComponentActivity() {

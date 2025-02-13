@@ -27,6 +27,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            signingConfig = signingConfigs.getByName("debug")
         }
     }
     compileOptions {
@@ -50,9 +51,7 @@ android {
 }
 
 dependencies {
-    implementation("com.github.lunodio:CommonView:1.0.13")
-//    implementation(project(":commonview"))
-//    implementation(project(":commonview"))
+    implementation(project(":commonview"))
 
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -73,4 +72,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+}
+
+afterEvaluate{
+    println("Available components in module ${project.name}: ${components.names}")
+
 }
