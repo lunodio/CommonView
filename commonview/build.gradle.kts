@@ -1,6 +1,6 @@
 plugins {
     id("com.android.library")
-    id("maven-publish")
+//    id("maven-publish")
 //    alias(libs.plugins.android.library)
 
 //    id("com.github.dcendents.android-maven")
@@ -47,16 +47,16 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 }
 
-publishing {
-    publications {
-        register<MavenPublication>("release") {
-            groupId = "cn.lunodio"
-            artifactId = "android-common-view"
-            version = "1.0"
-
-            afterEvaluate {
-                from(components["release"])
-            }
-        }
-    }
-}
+//publishing {
+//    publications {
+//        register<MavenPublication>("release") {
+//            groupId = "cn.lunodio"
+//            artifactId = "android-common-view"
+//            version = "1.0"
+//
+//            afterEvaluate {
+//                from(components["release"])
+//            }
+//        }
+//    }
+//}
