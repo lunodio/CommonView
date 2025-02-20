@@ -13,7 +13,7 @@
         android:theme="@style/Theme.View"
         tools:targetApi="31">
         <activity
-            android:name="cn.lunodio.commonview.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.View">

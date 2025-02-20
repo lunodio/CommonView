@@ -1,4 +1,4 @@
-package cn.lunodio.commonview
+package cn.lunodio.demo
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -13,7 +13,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.viewinterop.AndroidView
-import cn.lunodio.commonview.ui.theme.ViewTheme
+import cn.lunodio.commonview.LTextView
+import cn.lunodio.demo.ui.theme.ViewTheme
 
 //用数字标识关系举例
 class MainActivity : ComponentActivity() {

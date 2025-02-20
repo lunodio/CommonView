@@ -1,4 +1,4 @@
-package cn.lunodio.commonview.ui.theme
+package cn.lunodio.demo.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
